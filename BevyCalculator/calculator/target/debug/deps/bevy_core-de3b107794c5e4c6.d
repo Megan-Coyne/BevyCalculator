@@ -1,0 +1,7 @@
+/Users/megancoyne/UDRI/BevyCalculator/calculator/target/debug/deps/libbevy_core-de3b107794c5e4c6.rmeta: /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_core-0.14.2/src/lib.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_core-0.14.2/src/name.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_core-0.14.2/src/task_pool_options.rs
+
+/Users/megancoyne/UDRI/BevyCalculator/calculator/target/debug/deps/bevy_core-de3b107794c5e4c6.d: /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_core-0.14.2/src/lib.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_core-0.14.2/src/name.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_core-0.14.2/src/task_pool_options.rs
+
+/Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_core-0.14.2/src/lib.rs:
+/Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_core-0.14.2/src/name.rs:
+/Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_core-0.14.2/src/task_pool_options.rs:

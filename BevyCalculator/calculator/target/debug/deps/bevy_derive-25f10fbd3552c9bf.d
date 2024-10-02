@@ -1,0 +1,9 @@
+/Users/megancoyne/UDRI/BevyCalculator/calculator/target/debug/deps/libbevy_derive-25f10fbd3552c9bf.dylib: /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_derive-0.14.2/src/lib.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_derive-0.14.2/src/app_plugin.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_derive-0.14.2/src/bevy_main.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_derive-0.14.2/src/derefs.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_derive-0.14.2/src/enum_variant_meta.rs
+
+/Users/megancoyne/UDRI/BevyCalculator/calculator/target/debug/deps/bevy_derive-25f10fbd3552c9bf.d: /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_derive-0.14.2/src/lib.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_derive-0.14.2/src/app_plugin.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_derive-0.14.2/src/bevy_main.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_derive-0.14.2/src/derefs.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_derive-0.14.2/src/enum_variant_meta.rs
+
+/Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_derive-0.14.2/src/lib.rs:
+/Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_derive-0.14.2/src/app_plugin.rs:
+/Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_derive-0.14.2/src/bevy_main.rs:
+/Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_derive-0.14.2/src/derefs.rs:
+/Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_derive-0.14.2/src/enum_variant_meta.rs:
