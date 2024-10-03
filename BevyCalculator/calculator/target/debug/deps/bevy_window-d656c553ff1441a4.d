@@ -1,0 +1,10 @@
+/Users/megancoyne/UDRI/BevyCalculator/calculator/target/debug/deps/libbevy_window-d656c553ff1441a4.rmeta: /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_window-0.14.2/src/lib.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_window-0.14.2/src/cursor.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_window-0.14.2/src/event.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_window-0.14.2/src/raw_handle.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_window-0.14.2/src/system.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_window-0.14.2/src/window.rs
+
+/Users/megancoyne/UDRI/BevyCalculator/calculator/target/debug/deps/bevy_window-d656c553ff1441a4.d: /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_window-0.14.2/src/lib.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_window-0.14.2/src/cursor.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_window-0.14.2/src/event.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_window-0.14.2/src/raw_handle.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_window-0.14.2/src/system.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_window-0.14.2/src/window.rs
+
+/Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_window-0.14.2/src/lib.rs:
+/Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_window-0.14.2/src/cursor.rs:
+/Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_window-0.14.2/src/event.rs:
+/Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_window-0.14.2/src/raw_handle.rs:
+/Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_window-0.14.2/src/system.rs:
+/Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bevy_window-0.14.2/src/window.rs:

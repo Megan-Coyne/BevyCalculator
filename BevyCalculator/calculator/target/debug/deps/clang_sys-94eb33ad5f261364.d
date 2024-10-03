@@ -1,0 +1,14 @@
+/Users/megancoyne/UDRI/BevyCalculator/calculator/target/debug/deps/libclang_sys-94eb33ad5f261364.rmeta: /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.8.1/src/lib.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.8.1/src/support.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.8.1/src/link.rs /Users/megancoyne/UDRI/BevyCalculator/calculator/target/debug/build/clang-sys-27fab4e7bc97bfb5/out/macros.rs /Users/megancoyne/UDRI/BevyCalculator/calculator/target/debug/build/clang-sys-27fab4e7bc97bfb5/out/common.rs /Users/megancoyne/UDRI/BevyCalculator/calculator/target/debug/build/clang-sys-27fab4e7bc97bfb5/out/dynamic.rs
+
+/Users/megancoyne/UDRI/BevyCalculator/calculator/target/debug/deps/libclang_sys-94eb33ad5f261364.rlib: /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.8.1/src/lib.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.8.1/src/support.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.8.1/src/link.rs /Users/megancoyne/UDRI/BevyCalculator/calculator/target/debug/build/clang-sys-27fab4e7bc97bfb5/out/macros.rs /Users/megancoyne/UDRI/BevyCalculator/calculator/target/debug/build/clang-sys-27fab4e7bc97bfb5/out/common.rs /Users/megancoyne/UDRI/BevyCalculator/calculator/target/debug/build/clang-sys-27fab4e7bc97bfb5/out/dynamic.rs
+
+/Users/megancoyne/UDRI/BevyCalculator/calculator/target/debug/deps/clang_sys-94eb33ad5f261364.d: /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.8.1/src/lib.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.8.1/src/support.rs /Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.8.1/src/link.rs /Users/megancoyne/UDRI/BevyCalculator/calculator/target/debug/build/clang-sys-27fab4e7bc97bfb5/out/macros.rs /Users/megancoyne/UDRI/BevyCalculator/calculator/target/debug/build/clang-sys-27fab4e7bc97bfb5/out/common.rs /Users/megancoyne/UDRI/BevyCalculator/calculator/target/debug/build/clang-sys-27fab4e7bc97bfb5/out/dynamic.rs
+
+/Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.8.1/src/lib.rs:
+/Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.8.1/src/support.rs:
+/Users/megancoyne/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clang-sys-1.8.1/src/link.rs:
+/Users/megancoyne/UDRI/BevyCalculator/calculator/target/debug/build/clang-sys-27fab4e7bc97bfb5/out/macros.rs:
+/Users/megancoyne/UDRI/BevyCalculator/calculator/target/debug/build/clang-sys-27fab4e7bc97bfb5/out/common.rs:
+/Users/megancoyne/UDRI/BevyCalculator/calculator/target/debug/build/clang-sys-27fab4e7bc97bfb5/out/dynamic.rs:
+
+# env-dep:OUT_DIR=/Users/megancoyne/UDRI/BevyCalculator/calculator/target/debug/build/clang-sys-27fab4e7bc97bfb5/out
