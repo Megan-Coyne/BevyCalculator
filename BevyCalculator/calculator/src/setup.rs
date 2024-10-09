@@ -1,11 +1,11 @@
 use bevy::prelude::*;
 use crate::component::{ButtonLabel, Bubble, SequenceDisplay};
 use crate::constants::NORMAL_BUTTON;
+use crate::constants::BACKGROUND_COLOR;
+use crate::constants::BORDER_COLOR;
 
-pub fn setup(
-    mut commands: Commands,
-    asset_server: Res<AssetServer>,
-) {
+
+pub fn setup(mut commands: Commands, asset_server: Res<AssetServer>) {
     commands.spawn(Camera2dBundle::default());
 
     commands
@@ -18,10 +18,10 @@ pub fn setup(
                 align_items: AlignItems::Center,
                 ..default()
             },
+            background_color: BACKGROUND_COLOR.into(), // Set background to pink
             ..default()
         })
         .with_children(|parent| {
-            // Bubble for displaying the current sequence
             parent.spawn((
                 NodeBundle {
                     style: Style {
@@ -35,7 +35,7 @@ pub fn setup(
                         justify_content: JustifyContent::Center,
                         ..default()
                     },
-                    background_color: Color::rgba(0.0, 0.0, 0.0, 0.5).into(),
+                    background_color: Color::rgb(0.3, 0.5, 0.9).into(), // Set bubble color to a lighter blue
                     ..default()
                 },
                 Bubble,
@@ -44,7 +44,7 @@ pub fn setup(
                 parent.spawn(TextBundle {
                     text: Text {
                         sections: vec![TextSection {
-                            value: "".to_string(), // Initialize as empty
+                            value: "".to_string(),
                             style: TextStyle {
                                 font: asset_server.load("fonts/FiraSans-Bold.ttf"),
                                 font_size: 32.0,
@@ -54,7 +54,8 @@ pub fn setup(
                         ..default()
                     },
                     ..default()
-                }).insert(SequenceDisplay); // Attach the SequenceDisplay component here
+                })
+                .insert(SequenceDisplay);
             });
 
             let buttons: Vec<Vec<&str>> = vec![
@@ -66,43 +67,59 @@ pub fn setup(
             ];
 
             for row in buttons {
-                parent.spawn(NodeBundle {
-                    style: Style {
-                        flex_direction: FlexDirection::Row,
-                        ..default()
-                    },
-                    ..default()
-                })
-                .with_children(|parent| {
-                    for label in row {
-                        parent.spawn((
-                            ButtonBundle {
-                                style: Style {
-                                    width: Val::Px(150.0),
-                                    height: Val::Px(65.0),
-                                    justify_content: JustifyContent::Center, // Center child items horizontally
-                                    align_items: AlignItems::Center,         // Center child items vertically
-                                    border: UiRect::all(Val::Px(1.0)),
-                                    ..default()
-                                },
-                                background_color: NORMAL_BUTTON.into(),
+                parent
+                    .spawn(NodeBundle {
+                        style: Style {
+                            flex_direction: FlexDirection::Row,
+                            justify_content: JustifyContent::SpaceBetween, // Add space between buttons in a row
+                            margin: UiRect {
+                                bottom: Val::Px(10.0), // Add some margin between rows
                                 ..default()
                             },
-                            ButtonLabel(label.to_string()),
-                        ))
-                        .insert(Interaction::None)
-                        .with_children(|parent| {
-                            parent.spawn(TextBundle::from_section(
-                                label.to_string(),
-                                TextStyle {
-                                    font: asset_server.load("fonts/FiraSans-Bold.ttf"),
-                                    font_size: 24.0,
-                                    color: Color::WHITE,
-                                },
-                            ));
-                        });
-                    }
-                });
+                            ..default()
+                        },
+                        ..default()
+                    })
+                    .with_children(|parent| {
+                        for label in row {
+                            parent
+                                .spawn((
+                                    ButtonBundle {
+                                        style: Style {
+                                            width: Val::Px(150.0),
+                                            height: Val::Px(65.0),
+                                            margin: UiRect {
+                                                left: Val::Px(5.0), // Add space between buttons in a row
+                                                right: Val::Px(5.0), // Add space between buttons in a row
+                                                top: Val::Px(10.0),
+                                                bottom: Val::Px(10.0),
+                                            },
+                                            justify_content: JustifyContent::Center,
+                                            align_items: AlignItems::Center,
+                                            border: UiRect::all(Val::Px(5.0)), // Border size set here
+                                            ..default()
+                                        },
+                                        background_color: NORMAL_BUTTON.into(),
+                                        border_color: BorderColor(BORDER_COLOR), // Set the border color here
+                                        ..default()
+                                    },
+                                    ButtonLabel(label.to_string()),
+                                ))
+                                .with_children(|parent| {
+                                    parent.spawn(TextBundle {
+                                        text: Text::from_section(
+                                            label.to_string(),
+                                            TextStyle {
+                                                font: asset_server.load("fonts/FiraSans-Bold.ttf"),
+                                                font_size: 32.0,
+                                                color: Color::WHITE,
+                                            },
+                                        ),
+                                        ..default()
+                                    });
+                                });
+                        }
+                    });
             }
         });
 }
