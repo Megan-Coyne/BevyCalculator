@@ -1,0 +1,2 @@
+BevyCalculator/calculator/target/debug/deps/*.rlib filter=lfs diff=lfs merge=lfs -text
+BevyCalculator/calculator/target/debug/calculator filter=lfs diff=lfs merge=lfs -text
